@@ -3,12 +3,21 @@
 ## Table of contents
 
 - [Dependencies](#Dependencies)
+- [Install python](#Install-python)
 - [Create virtual environment and installing libraries](#Create-virtual-environment-and-installing-libraries)
 - [Run service](#Run-service)
 - [Examples with curl](#Examples-with-curl)
 
+
 ## Dependencies
 [`uv`](https://github.com/astral-sh/uv)
+
+
+## Install python
+
+```bash
+uv python install
+```
 
 
 ## Create virtual environment and installing libraries
