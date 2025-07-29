@@ -1,0 +1,21 @@
+[project]
+name = "ucar-topdoer"
+version = "0.1.0"
+description = "Test task for UCar<>TopDoer"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiosqlite==0.21.0",
+    "fastapi[standard]==0.116.1",
+    "sqlalchemy==2.0.41",
+]
+
+[dependency-groups]
+dev = [
+    "ruff==0.12.5",
+]
+
+[tool.ruff]
+src = ["./main.py"]
+lint.select = ["ALL"]
+lint.ignore = ["D100", "D101", "D102", "D103", "D104", "D106", "D107", "D203", "D212"]
