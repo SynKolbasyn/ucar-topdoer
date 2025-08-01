@@ -35,7 +35,7 @@ uv run --no-dev fastapi run
 
 
 ## Try it out
-Got to [`http://127.0.0.1:8000/docs`](http://127.0.0.1:8000/docs) and make some requests using interactive openapi interface
+Go to [`http://127.0.0.1:8000/docs`](http://127.0.0.1:8000/docs) and make some requests using interactive OpenAPI interface
 
 
 ## Examples with curl
